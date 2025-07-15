@@ -1,6 +1,12 @@
-name: fenics
+name: fem-sim
 channels:
   - conda-forge
 dependencies:
+  - python=3.10
   - fenics
+  - meshpy
+  - meshio
+  - pygmsh
+  - gmsh
+  - numpy
   - matplotlib
