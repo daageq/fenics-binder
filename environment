@@ -1,0 +1,11 @@
+name: fem-sim
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10            # Python 3.10
+  - fenics                 # FEniCS (dolfin, ufl 등 포함)
+  - meshpy                 # MeshPy (Triangle 래퍼)
+  - meshio                 # MeshIO for XDMF export
+  - numpy
+  - matplotlib
+  - scipy
